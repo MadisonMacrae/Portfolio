@@ -1,0 +1,125 @@
+ 
+
+.header {
+
+  color: purple;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px;
+  min-height: 100vh;
+  margin-right: 72px;
+}
+
+.mo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+.profile {
+  width: 280.91px;
+  height: 360.52px;
+  border: 1.97px;
+  border-color: #455764;
+  margin-right: 41px;
+  margin-left: 10px;
+}
+
+.skills {
+width: 570px;
+}
+
+.skills h1{
+  color: #455764;
+  font-size: 40px;
+}
+.skills h2{
+  color: #E19E01;
+  font-size: 30px;
+}
+.skills p{
+  color: #3C6447;
+  font-size: 25px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.shelf {
+  width: 709px;
+  height: 307px;
+}
+
+.about {
+  color:#E19E01;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 584px;
+  height: 33px;
+  margin-left: 70px;
+  color: #455764;
+  text-decoration: none;
+  margin-top: -20px;
+}
+
+.menu a{
+  color: #455764;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: -150px;
+}
+
+.about {
+  color: #E19E01;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-left: 72px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-right: 72px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+}
+
+.icons img{
+  width: 53px;
+  height: 54px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 25px;
+  color: #455764;
+}
+
+.icon {
+  width: 16px;
+  height: 30px;
+  margin-top: 19px;
+}
