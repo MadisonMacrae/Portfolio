@@ -73,12 +73,6 @@ width: 570px;
   margin-top: -20px;
 }
 
-.menu a{
-  color: #455764;
-  text-decoration: none;
-  font-size: 25px;
-}
-
 .navbar {
   display: flex;
   flex-direction: column;
@@ -122,4 +116,77 @@ width: 570px;
   width: 16px;
   height: 30px;
   margin-top: 19px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+  margin-left: 500px;
+  margin-top: 100px;
+  font-size: 24px;
+  margin-bottom: 120px;
+}
+
+.aboutme {
+  width: 1464px;
+  height: 71px;
+  font-size: 23px;
+  color: #455764;
+  line-height: 50px;
+  margin-top: 100px;
+}
+
+.websites {
+  display: flex;
+  flex-direction: column;
+  color: #8E4F2F;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  color: #455764;
+}
+
+.madsresume {
+  display: flex;
+  justify-content: center;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+.logos p{
+  width: 400px;
+  margin-bottom: 240px;
+  font-size: 23px;
+  color: #455764;
+}
+
+.logos img{
+  width: 249px;
+  height: 249px;
+  border: 2.25px solid #455764;
+  border-radius: 11.25px;
+  padding: 70px;
+  margin-top: 150px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+.selected {
+  color: #E19E01;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.default {
+  color: #455764;
+  text-decoration: none;
+  font-size: 25px;
 }
