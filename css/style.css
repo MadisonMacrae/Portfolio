@@ -1,5 +1,13 @@
- 
+@media (max-width: 600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+
+@media (min-width: 601px) {
+  
 .header {
 
   color: purple;
@@ -189,4 +197,5 @@ width: 570px;
   color: #455764;
   text-decoration: none;
   font-size: 25px;
+}
 }
